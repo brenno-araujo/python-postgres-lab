@@ -1,0 +1,1 @@
+SELECT id, full_name FROM users WHERE id = %s; 

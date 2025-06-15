@@ -1,0 +1,1 @@
+UPDATE users SET full_name = %s WHERE id = %s RETURNING id, full_name; 

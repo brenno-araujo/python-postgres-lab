@@ -1,0 +1,1 @@
+INSERT INTO users (full_name) VALUES (%s) RETURNING id, full_name; 
